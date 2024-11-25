@@ -23,7 +23,7 @@ The first line contains the first integer, _a_.
 The second line contains the second integer, _b_.
 
 ## Constraints
-1<=_a_<=10^10
+1<=_a_<=10^10 \
 1<=_b_<=10^10
 
 ## Output Format
