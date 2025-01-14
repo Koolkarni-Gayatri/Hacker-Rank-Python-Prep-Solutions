@@ -1,41 +1,44 @@
 # Find A String
 In this challenge, the user enters a string and a substring. You have to print the number of times that the substring occurs in the given string. String traversal will take place from left to right, not from right to left.
 
-NOTE: String letters are case-sensitive.
+**NOTE:** String letters are case-sensitive.
 
-Input Format
+## Input Format
 
 The first line of input contains the original string. The next line contains the substring.
 
-Constraints
-
+**Constraints**\
+1\<=*len\(string\)*\<=200
 
 Each character in the string is an ascii character.
 
-Output Format
+## Output Format
 
 Output the integer number indicating the total number of occurrences of the substring in the original string.
 
-Sample Input
-
+## Sample Input
+```
 ABCDCDC
 CDC
-Sample Output
-
+```
+## Sample Output
+```
 2
-Concept
+```
+## Concept
 
 There are a couple of new concepts:
-In Python, the length of a string is found by the function len(s), where  is the string.
+In Python, the length of a string is found by the function len(s), where *s* is the string.
 To traverse through the length of a string, use a for loop:
-
+```
 for i in range(0, len(s)):
     print (s[i])
+```
 A range function is used to loop over some length:
-
+```
 range (0, 5)
-Here, the range loops over  to .  is excluded.
+```
+Here, the range loops over 0 to 4. 5 is excluded.
 
-Constraints
-
--
+**Constraints**\
+\-
