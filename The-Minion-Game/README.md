@@ -19,34 +19,33 @@ Here, ANA occurs twice in BANANA. Hence, Kevin will get 2 Points.
 
 For better understanding, see the image below:
 
-banana.png
+![Alt text](https://s3.amazonaws.com/hr-challenge-images/9693/1450330231-04db904008-banana.png "a title")
 
 Your task is to determine the winner of the game and their score.
 
-Function Description
+#### Function Description
 
 Complete the minion_game in the editor below.
 
 minion_game has the following parameters:
 
-string string: the string to analyze
+- string string: the string to analyze\
 Prints
+- string: the winner's name and score, separated by a space on one line, or Draw if there is no winner
+## Input Format
+A single line of input containing the string S.\
+__Note__: The string S will contain only uppercase letters: \[A-Z\].
 
-string: the winner's name and score, separated by a space on one line, or Draw if there is no winner
-Input Format
+#### Constraints
+0\<len(S)\<10^6
 
-A single line of input containing the string .
-Note: The string  will contain only uppercase letters: .
-
-Constraints
-
-
-
-Sample Input
-
+## Sample Input
+```
 BANANA
-Sample Output
-
+```
+## Sample Output
+```
 Stuart 12
-Note :
-Vowels are only defined as . In this problem,  is not considered a vowel.
+```
+#### Note :
+Vowels are only defined as AEIOU. In this problem, Y is not considered a vowel.
