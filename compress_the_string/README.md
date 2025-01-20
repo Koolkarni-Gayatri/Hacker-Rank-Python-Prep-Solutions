@@ -18,7 +18,7 @@ A single line of output consisting of the modified string.
 
 All the characters of S denote integers between 0 and 9.
 
-1\<=|S|\<=10<sup>4</sup>
+1\<=|S|$\le$10<sup>4</sup>
 ## Sample Input
 ```
 1222311
