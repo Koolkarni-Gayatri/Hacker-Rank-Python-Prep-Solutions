@@ -25,7 +25,7 @@ Your task is to print all possible size k replacement combinations of the string
 A single line containing the string S and integer value k separated by a space.
 
 #### Constraints
-0\<k\<len(S)
+- 0\<k\<len(S)
 
 The string contains only UPPERCASE characters.
 
