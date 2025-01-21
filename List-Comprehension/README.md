@@ -35,7 +35,7 @@ Print the list in lexicographic increasing order.
 [[0, 0, 0], [0, 0, 1], [0, 1, 0], [1, 0, 0], [1, 1, 1]]
 ```
 
-## Explanation 0
+### Explanation 0
 
 Each variable _x_,_y_ and _z_ will have values of 0 or 1. All permutations of lists in the form .
 \[_i_,_j_,_k_\]=\[\[0,0,0\],\[0,0,1\],\[0,1,0\],\[0,1,1\],\[1,0,0\],\[1,0,1\],\[1,1,0\],\[1,1,1\]\]
