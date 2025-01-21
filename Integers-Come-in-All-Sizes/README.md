@@ -1,5 +1,5 @@
 # Integer come in all sizes
-Integers in Python can be as big as the bytes in your machine's memory. There is no limit in size as there is:**2^31-1**(c++ int) or  **2^63-1**(C++ long long int).
+Integers in Python can be as big as the bytes in your machine's memory. There is no limit in size as there is:**2<sup>31</sup>-1**(c++ int) or  **2<sup>63</sup>-1**(C++ long long int).
 
 As we know, the result of  grows really fast with increasing .
 
