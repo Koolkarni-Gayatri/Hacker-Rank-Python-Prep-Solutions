@@ -34,35 +34,38 @@ Ms. Gabriel Williams is a botany professor at District College. One day, she ask
 
 Formula used:
 
-$\frac{Sum of Distinct Heights}{Total Number of Distinct Heights}
+Average = $\frac{Sum of Distinct Heights}{Total Number of Distinct Heights}$
 
-Function Description
+## Function Description
 
 Complete the average function in the editor below.
 
 average has the following parameters:
-
-int arr: an array of integers
+- int arr: an array of integers
+  
 Returns
+- float: the resulting float value rounded to 3 places after the decimal
+## Input Format
 
-float: the resulting float value rounded to 3 places after the decimal
-Input Format
+The first line contains the integer, N, the size of arr.
+The second line contains the N space-separated integers, arr\[i\].
 
-The first line contains the integer, , the size of .
-The second line contains the  space-separated integers, .
+#### Constraints
+0\<N$`\le`$100
 
-Constraints
-
-
-Sample Input
-
+## Sample Input
+```
 STDIN                                       Function
 -----                                       --------
 10                                          arr[] size N = 10
 161 182 161 154 176 170 167 171 170 174     arr = [161, 181, ..., 174]
-Sample Output
-
+```
+## Sample Output
+```
 169.375
-Explanation
+```
+## Explanation
 
-Here, set is the set containing the distinct heights. Using the sum() and len() functions, we can compute the average.
+Here, set is the set\(\[154,161,167,170,171,174,176,182\]\) containing the distinct heights. Using the sum() and len() functions, we can compute the average.
+
+Average = $\frac{1355}{8}$=169.375
